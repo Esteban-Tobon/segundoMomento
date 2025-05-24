@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="src/css/styles_pizza.css">
+    <title>segundo momento web 1</title>
+</head>
+<body>
+    
+
+<!--Este es el trabajo ya corregido, el error que precentaba antes era que no al momento de ejecutar solo aparecia la pagina sin ninguna interaccion. el error estab en que tenia un borrador en una carpeta y el proyecto a entregar en otra y el orden de las carpetas en los dos archivos era diferente y los troque puse el index de uno con el .js de el otro.  -->
+
+
+    <h1>Pizza Del Norte</h1>
+
+
+    <h3>En el siquiente formulario podras escoger la combinacion de pizza que mas te guste</h3>
+     
+<!--Sellecion de pizza  -->
+    <p>Selecciona el tipo de pizza que deseas</p>
+    <form action="" id="formulario ">
+
+    <label for="tip_pizza"> Tipo de pizza</label>
+
+<select name="tip_pizza" id="tip_pizza">
+
+    <option value="queso">Pizza con queso $14000 pesos</option>
+    <option value="jamon_y_Queso">Pizza con jamon y queso $16000 pesos</option>
+    <option value="especial">Pizza especial $20000 pesos</option>
+</select>
+</form>
+
+<br><br>
+<!-- Adiciones de pizza por cuadros seleccionebles (checkbox) -->
+<p>Tambien puedes agregarle ingredientes extas como: </p>
+<label for="ingr_extra"></label>
+        <input type="checkbox" name="" id="maiz" value="maiz">
+        <label for="maiz">Adicion de maiz $2000 pesos</label>
+        <br>
+        <input type="checkbox" name="queso" id="queso_extra" value="queso">
+        <label for="queso_extra">Adicion de queso $10000 pesos</label>
+        <br>
+        <input type="checkbox" name="peperoni" id="peperoni" value="peperoni">
+        <label for="peperoni">Adicion de peperoni $15000 pesos</label>
+        <br>
+     
+ <p>si no desceas ninguna de estas adiciones  dejar en blaco el boton</p>  
+
+       
+    
+<br>
+<!-- Ingreso por el usuario la cantidad de inidades pizza que desea -->
+
+<p>Por favor especificar la cantidad de pizzas que deseas con las caraccteristicas preseleccionadas </p>
+<label for="cantidad" >Cantidad:</label>
+<input type="number" id="cantidad" name="cantidad" value="1">
+
+<br>
+<button id="calcular_total">Calcular Total</button>
+
+
+<br>
+
+<div id="resumen_pedido" style="margin-top: 20px;"></div>
+
+
+
+
+
+    <script src="src/js/cod_pizza.js"></script>
+</body>
+</html>

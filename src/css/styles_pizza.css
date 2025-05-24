@@ -1,0 +1,96 @@
+/* Estilo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin:30px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #ff6347; 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color:  rgb(236, 67, 67);
+    line-height: 1.2;
+}
+
+section {
+    padding: 20px;
+    max-width: 900px;
+    margin: 20px ;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/*  encabezados */
+h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Formulario */
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 8px;
+    display: block;
+}
+
+select, input[type="number"], button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+
+
+
+/*ingredientes adicionales */
+input[type="checkbox"] {
+    margin-right: 20px;
+}
+
+/*boton calcular*/
+button {
+    background-color: rgb(236, 67, 67);
+    color: white;
+    font-size: 16px; 
+    font-weight: bold;
+    border: none;
+    transition: background-color 0.3s;
+    padding: 8px 16px; 
+    display: block; 
+    width: fit-content; 
+}
+
+/* Mensaje */
+p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* total calculado */
+#ingr_extra_agregados {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #333;
+}
+
+
